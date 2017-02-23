@@ -1,0 +1,13 @@
+X-Cache: MISS
+Content-Encoding: gzip
+Set-Cookie: __cfduid=d21c0eab8691bd397c0e7c17b45e371d51487794741; expires=Thu, 22-Feb-18 20:19:01 GMT; path=/; domain=.westeros.org; HttpOnly
+Cf-Cache-Status: REVALIDATED
+Expires: Wed, 22 Feb 2017 20:34:01 GMT
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+Last-Modified: Mon, 08 Feb 2016 00:04:18 GMT
+Etag: W/"1662080786"
+Cache-Control: public, max-age=900
+Date: Wed, 22 Feb 2017 20:19:01 GMT
+Cf-Ray: 3355216da74c213e-EWR
+Content-Type: text/plain
