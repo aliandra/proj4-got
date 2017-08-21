@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Visualization</title>
+    <!-- Compiled and minified CSS -->
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="scatter.css" charset="utf-8">
+  </head>
+  <body>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col s8'>
+          <div id="scatter"></div>
+        </div>
+        <form class='col s4'>
+          <h1>Thrones2vec</h1>
+          <p class='flow-text'>
+            Enter some search terms to start exploring the data.
+          </p>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" id="autocomplete-input" class="autocomplete" placeholder='armor, wintefell, mead, throne'>
+              <label for="autocomplete-input">Enter terms</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+                <a id='submit-search' class="waves-effect waves-light btn-large">Show me</a>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="scatter.js" charset="utf-8"></script>
+  </body>
+</html>
